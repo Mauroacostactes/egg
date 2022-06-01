@@ -18,7 +18,7 @@ public class Ejer10 {
         Scanner leer = new Scanner(System.in);
         int num;
         for (int i = 0; i < 4; i++) {
-            System.out.println("ingrese un valor entre 1 y 20");            
+            System.out.println("  ingrese un valor entre 1 y 20");            
             num = leer.nextInt();
             if (num > 0 && num < 21){
                 for (int j = 0; j < num; j++) {
